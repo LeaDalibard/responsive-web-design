@@ -21,8 +21,8 @@
     div.medium {
         font-size: 20px;
     }*/
-    .small {width: 33.33%;}
-    .medium {width: 66.66%;}
+    .small {width: 66.66%;}
+    .medium {width: 33.33%;}
     .large {width: 100%;}
 }
 
@@ -56,4 +56,8 @@
         width: 30%;
         margin: 15px;
     }
+}
+
+div.small, div.medium, div.large{
+    border: 2px solid white;
 }
