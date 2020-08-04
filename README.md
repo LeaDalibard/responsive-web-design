@@ -1,1 +1,1 @@
-# responsive-web-design
+# https://leadalibard.github.io/responsive-web-design/
