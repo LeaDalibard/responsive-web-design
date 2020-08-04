@@ -3,15 +3,21 @@
         background-color: red;}
     div.large {display: none;}
     div.medium {display: none;}
+    div.small {
+        font-size: 20px;
+    }
 }
 
-@media only screen and (max-width: 768px)
+@media only screen and (min-width: 300px) and (max-width: 768px)
 {
     body {
         background-color: green;
     }
     div.large {display: none;}
     div.small {display: none;}
+    div.medium {
+        font-size: 20px;
+    }
 
 }
 
@@ -21,5 +27,8 @@
     }
     div.small {display: none;}
     div.medium {display: none;}
+    div.large {
+        font-size: 40px;
+    }
 }
 
